@@ -51,7 +51,7 @@ public class Main {
                 System.out.println("The number was " + randomNumber + ".");
             }
 
-            System.out.println("Game finished!");
+            System.out.println("Game finished!!!");
 
         }
 
