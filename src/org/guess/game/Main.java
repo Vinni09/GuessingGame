@@ -31,6 +31,8 @@ public class Main {
             System.out.println("Ok lets begin.");
         }
 
+        long start = System.nanoTime();
+
         Random random = new Random();
         int randomNumber = random.nextInt(20)+1;
         System.out.println("Guess a number between 1 and 20.");
@@ -51,9 +53,13 @@ public class Main {
                 System.out.println("The number was " + randomNumber + ".");
             }
 
-            System.out.println("Game finished!!!");
-
         }
+
+        long finish = System.nanoTime();
+
+        long timeElapsed = finish - start;
+
+        System.out.println("Game finished in " + timeElapsed/1e9 + " seconds!");
 
     }
 
