@@ -8,6 +8,8 @@ public class Main {
 
     public static void main(String[] args) {
 
+        long start = System.currentTimeMillis();
+
         System.out.println("Welcome to the guessing game!");
         System.out.println("Please choose your user name!");
 
@@ -51,7 +53,11 @@ public class Main {
                 System.out.println("The number was " + randomNumber + ".");
             }
 
-            System.out.println("Game finished!!!");
+            long finish = System.currentTimeMillis();
+
+            long timeElapsed = finish - start;
+
+            System.out.println("Game finished in " + timeElapsed + " seconds!");
 
         }
 

@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8e4dfc8b-fe2e-4c2d-ac2b-9009e1f79514" name="Changes" comment="initial commit in azure devops">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/guess/game/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/guess/game/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
